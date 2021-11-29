@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "id": "john@example.com",
+            "manager": "todd@example.com"
+        },
+        {
+            "id": "todd@example.com",
+            "manager": "brett@example.com"
+        },
+        {
+            "id": "kim@example.com",
+            "manager": "stacey@example.com"
+        }
+    ],
+    "requests": [
+        {
+            "id": 1,
+            "requester": "john@example.com",
+            "item": {
+                "name": "Eraser",
+                "description": "Erases pencil marks",
+                "cost": 12.34
+            },
+            "reason": "Other",
+            "additionalReasonNotes": "It's really hard to do my job without being able to erase things"
+        }
+    ]
+}
